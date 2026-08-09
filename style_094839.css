@@ -48,3 +48,22 @@ img {
     border: 5px solid #007bff;
     margin: 20px 0;
 }
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.contact-btn {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.contact-btn:hover {
+  background: #0056b3;
+}
